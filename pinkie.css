@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400;1,500;1,900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Merienda+One&family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+}
+header {
+    background-image: url(img.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    padding-bottom: 20%;
+
+}
+.pinkies {
+    text-align: center;
+    font-size: 21px;   
+    color: black;
+    font-family: 'Timmana', sans-serif;
+}
+.text-container {
+    width: 65%;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: 'Timmana', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+
+}
+.first-line {
+    font-size: 30px;
+    letter-spacing: 1px;
+    opacity: inherit;
+    color: black;
+}
+.second-line {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    opacity: inherit;
+    color: black;
+}
+.third-line {
+    font-size: 30px;
+    opacity: inherit;
+    font-family: 'Timmana', sans-serif;
+    color: black;
+}
+main {
+    height: 50%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(240, 207, 232);
+}
+.text1 {
+    margin-left: 30px;
+    font-size: 30px;
+    color: black;
+    font-family: 'Timmana', sans-serif;
+}
+.fa-twitter {
+    color: rgb(99, 21, 21);
+    font-size: 200%; 
+    padding: 0 20px;
+    transition: all 0.4s ease-out;
+}
+.fa-twitter:hover {
+    transform: rotate(3deg) scale(0.7);
+}
+.fa-instagram {
+    color: black;
+    font-size: 200%; 
+    transition: all 0.4s ease-out;
+}
+.fa-instagram:hover {
+    transform: rotate(3deg) scale(0.7);
+}
+.fa-telegram {
+    color: black;
+    font-size: 200%; 
+    padding: 0  20px;
+    padding-bottom: 20px;
+    transition: all 0.4s ease-out;
+}
+.fa-telegram:hover {
+    transform: rotate(3deg) scale(0.7);
+}
+.fa-at {
+    color: black;
+    font-size: 200%; 
+    transition: all 0.4s ease-out;
+}
+.fa-at:hover {
+    transform: rotate(3deg) scale(0.7);
+}
